@@ -1,0 +1,33 @@
+{
+  "name": "ivs-streaming",
+  "version": "1.0.0",
+  "description": "IVS Streaming - API & Client",
+  "main": "handler.js",
+  "scripts": {
+    "dev": "npx serverless offline"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ivs": "^3.974.0",
+    "source-map-support": "^0.5.10"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.17",
+    "@types/node": "^22.0.0",
+    "@types/serverless": "^3.12.16",
+    "fork-ts-checker-webpack-plugin": "^3.0.1",
+    "serverless": "^3.35.2",
+    "serverless-iam-roles-per-function": "^3.2.0",
+    "serverless-offline": "^8.8.1",
+    "serverless-plugin-aws-alerts": "^1.6.1",
+    "serverless-plugin-split-stacks": "^1.11.2",
+    "serverless-prune-plugin": "^2.0.2",
+    "serverless-webpack": "^5.2.0",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.10.2",
+    "typescript": "^5.2.2",
+    "webpack": "^5.89.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
